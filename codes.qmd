@@ -1,0 +1,32 @@
+---
+title: "id"
+format: html
+editor: visual
+---
+
+```{r}
+install.packages("devtools")
+install.packages("roxygen2")
+install.packages("withr")
+library(withr)
+library(devtools)
+library(roxygen2)
+has_devel()
+usethis::use_package("readr")
+usethis::use_package("dplyr")
+usethis::use_pipe()
+usethis::use_package_doc()
+devtools::document()
+devtools::build()
+devtools::load_all()
+devtools::install()
+library(TsvFormater)
+usethis::use_vignette("TsvFormater", title = "Text File Processing with Package TsvFormater")
+devtools::build_vignettes()
+devtools::build()
+
+```
+
+```{r}
+
+```

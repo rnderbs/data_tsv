@@ -1,0 +1,9 @@
+---
+title: "Text File Processing with Package TsvFormater"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Text File Processing with Package TsvFormater}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
